@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* border: 0.5px solid gray;*/
+    font-family: inherit;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left {
+    width: 30%;
+    height: 100%;
+}
+
+.header {
+    height: 10%;
+    width: 100%;
+}
+
+.logo {
+    width: 120px;
+    height: 67px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.main {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-register {
+    display: none;
+}
+
+.form {
+    width: 400px;
+    position: relative;
+    bottom: 50px;
+
+}
+
+.form .heading {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.15px;
+    color: black;
+}
+
+.form .subheading {
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    color: #909090;
+}
+
+input {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #CCCCCC;
+    padding: 11px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn-secondary {
+    border: none;
+    font-size: 14px;
+    color: #5B89FF;
+    font-family: 400;
+    background: none;
+}
+
+.btn-primary {
+    font-size: 14px;
+    font-family: 700;
+    color: #FFFFFF;
+    background-color: #5B89FF;
+    padding: 15px 33px;
+    border: none;
+    border-radius: 6px;
+}
+
+.right {
+    height: 100%;
+    width: 70%;
+    background: url(background.jpg);
+    background-size: cover;
+}
+
+.slider {
+    width: 180px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 82px;
+    margin-left: 120px;
+}
+
+.line {
+    width: 80px;
+    height: 4px;
+    background-color: white;
+    opacity: 50%;
+
+}
+
+.line-activeted {
+    background-color: white;
+    opacity: 100%;
+}
+
+.right .heading {
+    margin-top: 50px;
+    color: white;
+    margin-left: 120px;
+    font-size: 46px;
+    font-family: 700;
+
+}
+
+.right .subheading {
+    color: white;
+    margin-top: 40px;
+    margin-left: 120px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 746px;
+    line-height: 1.5;
+
+}
+
+.play {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 260px;
+}
+
+.triangle {
+    position: relative;
+    left: 5px;
+}
